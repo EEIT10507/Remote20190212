@@ -8,11 +8,9 @@
 <title>Hello/title>
 </head>
 <body>
-
+<h1>hello</h1>
 <h3>Welcome ${user.email}</h3>
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
-<p>安安</p>
-
 </body>
 </html>
