@@ -12,7 +12,11 @@
 <h3>Welcome ${user.email}</h3>
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
+<<<<<<< HEAD
 <p>second commit</p>
 4
+=======
+
+>>>>>>> branch 'master' of https://github.com/EEIT10507/Remote20190212.git
 </body>
 </html>
