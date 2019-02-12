@@ -22,6 +22,7 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	public void init() throws ServletException {
 		customerService = new CustomerService();
+		/*  */
 	}
 	
 	@Override
