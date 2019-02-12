@@ -26,6 +26,14 @@ public class ProductDAOJdbc implements ProductDAO {
 			e.printStackTrace();
 		}
 	}
+<<<<<<< HEAD
+=======
+	
+	
+	
+	
+	
+>>>>>>> branch 'master' of https://github.com/EEIT10507/Remote20190212.git
 	private static final String SELECT_BY_ID = "select * from product where id=?";
 	@Override
 	public ProductBean findByPrimaryKey(int id) {

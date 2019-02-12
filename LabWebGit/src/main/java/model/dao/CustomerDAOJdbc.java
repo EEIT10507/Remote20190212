@@ -22,6 +22,7 @@ public class CustomerDAOJdbc implements CustomerDAO {
 			e.printStackTrace();
 		}
 	}
+
 	private static final String SELECT_BY_CUSTID = "select * from customer where custid=?";
 	@Override
 	public CustomerBean findByPrimaryKey(String custid) {

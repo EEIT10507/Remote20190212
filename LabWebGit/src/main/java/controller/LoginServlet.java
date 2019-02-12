@@ -18,10 +18,6 @@ import model.CustomerService;
 		urlPatterns={"/secure/login.controller"}
 )
 public class LoginServlet extends HttpServlet {
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	private CustomerService customerService;
 	@Override
 	public void init() throws ServletException {
@@ -34,6 +30,9 @@ public class LoginServlet extends HttpServlet {
 //接收資料
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
+
+		
+		
 
 //驗證資料：準備好錯誤訊息之後、將錯誤訊息傳送給View元件
 		Map<String, String> errors = new HashMap<>();
