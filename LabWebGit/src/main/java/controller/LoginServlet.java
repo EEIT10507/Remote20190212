@@ -51,7 +51,7 @@ public class LoginServlet extends HttpServlet {
 		
 //根據model執行結果呼叫View
 		if(bean==null) {
-			errors.put("xxx2", "登入失敗");
+			errors.put("xxx2", "輸入錯誤誤誤誤");
 			request.getRequestDispatcher(
 					"/secure/login.jsp").forward(request, response);
 		} else {
