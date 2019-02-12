@@ -7,5 +7,7 @@ public interface CustomerDAO {
 	boolean update(byte[] password, String email, java.util.Date birth, String custid);
 
 
+
 }
+
 

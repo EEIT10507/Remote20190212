@@ -25,7 +25,9 @@ public class ProductDAOJdbc implements ProductDAO {
 		} catch (NamingException e) {
 			e.printStackTrace();
 		}
+
 	}
+
 	private static final String SELECT_BY_ID = "select * from product where id=?";
 	@Override
 	public ProductBean findByPrimaryKey(int id) {

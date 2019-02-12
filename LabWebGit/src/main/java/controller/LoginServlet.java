@@ -31,8 +31,6 @@ public class LoginServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 
-		
-		
 
 //驗證資料：準備好錯誤訊息之後、將錯誤訊息傳送給View元件
 		Map<String, String> errors = new HashMap<>();
